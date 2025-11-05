@@ -1,10 +1,10 @@
-package xyz.luenn.template;
+package xyz.luenn.framework;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class MarpleTemplate extends JavaPlugin {
+public final class MarpleFrameWork extends JavaPlugin {
 
-    private static MarpleTemplate instance;
+    private static MarpleFrameWork instance;
 
     @Override
     public void onEnable() {
@@ -17,7 +17,7 @@ public final class MarpleTemplate extends JavaPlugin {
         // Plugin shutdown logic
     }
 
-    public static MarpleTemplate getInstance() {
+    public static MarpleFrameWork getInstance() {
         return instance;
     }
 }
