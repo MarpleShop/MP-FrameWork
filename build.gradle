@@ -27,7 +27,7 @@ dependencies {
 
 ext {
     set("pluginName", project.name)
-    set("packageName", project.name.replace("MP-", ""))
+    set("packageName", project.name.replace("MP-", "").toLowerCase())
     set("className", project.name.replace("MP-", "Marple"))
     set("paperVersion", libs.versions.paper.get().toString().split("\\.").take(2).join("."))
 }
